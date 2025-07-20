@@ -15,3 +15,16 @@ bin/
 
 # macOS
 .DS_Store
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Binaries
+*.exe
+cmd/github-mcp-server/github-mcp-server.exe
+
+# Logs
+*.log
